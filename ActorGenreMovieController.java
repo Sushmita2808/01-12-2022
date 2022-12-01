@@ -63,7 +63,7 @@ public class ActorGenreMovieController  {
 		//Displaying
 		//searching Actor records by name
 		System.out.println("\n\n Searching Actor records by name : \n ");
-		Actor actor1 = actorRepository.findByName("Allu");
+		Actor actor1 = actorRepository.findByName("Vijay");
 				
 		System.out.println(actor1.getId());
 		System.out.println(actor1.getName());
