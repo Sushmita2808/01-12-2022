@@ -18,5 +18,5 @@ public interface ActorRepository extends JpaRepository<Actor, Long> {
 	
 	List<Actor> findAll();
 
-
+	void deleteById(Long id);
 }
